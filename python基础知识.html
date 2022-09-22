@@ -1,0 +1,1012 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第一章 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="numpy基础.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="python基础知识.html">
+            
+                <a href="python基础知识.html">
+            
+                    
+                    第一章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="numpy基础.html">
+            
+                <a href="numpy基础.html">
+            
+                    
+                    第二章
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第一章</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="python&#x57FA;&#x7840;&#x77E5;&#x8BC6;">Python&#x57FA;&#x7840;&#x77E5;&#x8BC6;</h1>
+<h2 id="1&#x3001;&#x53D8;&#x91CF;">1&#x3001;&#x53D8;&#x91CF;</h2>
+<ul>
+<li>&#x53D8;&#x91CF;&#x540D;&#x53EA;&#x80FD;&#x5305;&#x542B;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x3001;&#x4E0B;&#x5212;&#x7EBF;&#xFF0C;&#x4E0D;&#x80FD;&#x4EE5;&#x6570;&#x5B57;&#x6253;&#x5934;</li>
+<li>&#x4E0D;&#x8981;&#x5C06;Python&#x5173;&#x952E;&#x5B57;&#x548C;&#x51FD;&#x6570;&#x540D;&#x7B49;Python&#x4FDD;&#x7559;&#x7528;&#x4E8E;&#x7279;&#x6B8A;&#x7528;&#x9014;&#x7684;&#x5355;&#x8BCD;&#x7528;&#x4F5C;&#x53D8;&#x91CF;&#x540D;</li>
+<li>&#x53D8;&#x91CF;&#x540D;&#x5E94;&#x7B80;&#x77ED;&#x4E14;&#x5177;&#x6709;&#x63CF;&#x8FF0;&#x6027;</li>
+<li>&#x5E38;&#x7528;&#x4E24;&#x79CD;&#x547D;&#x540D;&#x6CD5;&#xFF0C;&#x4E0B;&#x5212;&#x7EBF;&#x547D;&#x540D;&#x6CD5;&#x548C;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;&#xFF0C;&#x5982;student_name, StudentName, studentName</li>
+</ul>
+<pre><code class="lang-python">message = <span class="hljs-string">&quot;Hello world!&quot;</span>
+print(message)
+</code></pre>
+<pre><code>Hello world!
+</code></pre><h2 id="2&#x3001;&#x6570;&#x636E;&#x7C7B;&#x578B;">2&#x3001;&#x6570;&#x636E;&#x7C7B;&#x578B;</h2>
+<p>&#x5E38;&#x7528;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x5982;&#x4E0B;&#x51E0;&#x79CD;&#xFF1A;</p>
+<ul>
+<li>&#x5B57;&#x7B26;&#x4E32;</li>
+<li>&#x6570;&#x503C;&#x7C7B;&#x578B;<ul>
+<li>&#x6574;&#x6570;</li>
+<li>&#x6D6E;&#x70B9;&#x6570;</li>
+</ul>
+</li>
+<li>&#x5E03;&#x5C14;&#x7C7B;&#x578B;</li>
+</ul>
+<h3 id="21&#x3001;&#x5B57;&#x7B26;&#x4E32;">2.1&#x3001;&#x5B57;&#x7B26;&#x4E32;</h3>
+<ul>
+<li>&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x4E00;&#x79CD;&#x4E0D;&#x53EF;&#x53D8;&#x5E8F;&#x5217;&#x7C7B;&#x578B;</li>
+<li>&#x53EF;&#x4EE5;&#x7528;<code>dir()</code>&#x67E5;&#x770B;&#x5B83;&#x5177;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;<code>help()</code>&#x67E5;&#x770B;&#x76F8;&#x5E94;&#x65B9;&#x6CD5;&#x5177;&#x4F53;&#x4F7F;&#x7528;&#x5E2E;&#x52A9;</li>
+<li>&#x7D22;&#x5F15;&#xFF0C;&#x5207;&#x7247;</li>
+<li>&#x8F6C;&#x4E49;&#x5B57;&#x7B26;&#xFF0C;&#x5982;<code>\n</code>&#x6362;&#x884C;&#x7B26;, <code>\t</code>&#x5236;&#x8868;&#x7B26;</li>
+<li>&#x683C;&#x5F0F;&#x5316;&#x5B57;&#x7B26;&#x4E32;3&#x79CD;&#x65B9;&#x6CD5;: %, format, f-string</li>
+</ul>
+<pre><code class="lang-python">string1 = <span class="hljs-string">&quot;This is a string&quot;</span>
+string2 = <span class="hljs-string">&apos;This is a string&apos;</span>
+</code></pre>
+<pre><code class="lang-python">dir(string1)
+</code></pre>
+<pre><code>[&apos;__add__&apos;,
+ &apos;__class__&apos;,
+ &apos;__contains__&apos;,
+ &apos;__delattr__&apos;,
+ &apos;__dir__&apos;,
+ &apos;__doc__&apos;,
+ &apos;__eq__&apos;,
+ &apos;__format__&apos;,
+ &apos;__ge__&apos;,
+ &apos;__getattribute__&apos;,
+ &apos;__getitem__&apos;,
+ &apos;__getnewargs__&apos;,
+ &apos;__gt__&apos;,
+ &apos;__hash__&apos;,
+ &apos;__init__&apos;,
+ &apos;__init_subclass__&apos;,
+ &apos;__iter__&apos;,
+ &apos;__le__&apos;,
+ &apos;__len__&apos;,
+ &apos;__lt__&apos;,
+ &apos;__mod__&apos;,
+ &apos;__mul__&apos;,
+ &apos;__ne__&apos;,
+ &apos;__new__&apos;,
+ &apos;__reduce__&apos;,
+ &apos;__reduce_ex__&apos;,
+ &apos;__repr__&apos;,
+ &apos;__rmod__&apos;,
+ &apos;__rmul__&apos;,
+ &apos;__setattr__&apos;,
+ &apos;__sizeof__&apos;,
+ &apos;__str__&apos;,
+ &apos;__subclasshook__&apos;,
+ &apos;capitalize&apos;,
+ &apos;casefold&apos;,
+ &apos;center&apos;,
+ &apos;count&apos;,
+ &apos;encode&apos;,
+ &apos;endswith&apos;,
+ &apos;expandtabs&apos;,
+ &apos;find&apos;,
+ &apos;format&apos;,
+ &apos;format_map&apos;,
+ &apos;index&apos;,
+ &apos;isalnum&apos;,
+ &apos;isalpha&apos;,
+ &apos;isascii&apos;,
+ &apos;isdecimal&apos;,
+ &apos;isdigit&apos;,
+ &apos;isidentifier&apos;,
+ &apos;islower&apos;,
+ &apos;isnumeric&apos;,
+ &apos;isprintable&apos;,
+ &apos;isspace&apos;,
+ &apos;istitle&apos;,
+ &apos;isupper&apos;,
+ &apos;join&apos;,
+ &apos;ljust&apos;,
+ &apos;lower&apos;,
+ &apos;lstrip&apos;,
+ &apos;maketrans&apos;,
+ &apos;partition&apos;,
+ &apos;replace&apos;,
+ &apos;rfind&apos;,
+ &apos;rindex&apos;,
+ &apos;rjust&apos;,
+ &apos;rpartition&apos;,
+ &apos;rsplit&apos;,
+ &apos;rstrip&apos;,
+ &apos;split&apos;,
+ &apos;splitlines&apos;,
+ &apos;startswith&apos;,
+ &apos;strip&apos;,
+ &apos;swapcase&apos;,
+ &apos;title&apos;,
+ &apos;translate&apos;,
+ &apos;upper&apos;,
+ &apos;zfill&apos;]
+</code></pre><pre><code class="lang-python">help(string1.title)
+</code></pre>
+<pre><code>Help on built-in function title:
+
+title() method of builtins.str instance
+    Return a version of the string where each word is titlecased.
+
+    More specifically, words start with uppercased characters and all remaining
+    cased characters have lower case.
+</code></pre><pre><code class="lang-python">help(string1.replace)
+</code></pre>
+<pre><code>Help on built-in function replace:
+
+replace(old, new, count=-1, /) method of builtins.str instance
+    Return a copy with all occurrences of substring old replaced by new.
+
+      count
+        Maximum number of occurrences to replace.
+        -1 (the default value) means replace all occurrences.
+
+    If the optional argument count is given, only the first count occurrences are
+    replaced.
+</code></pre><pre><code class="lang-python">a = <span class="hljs-string">&apos;Python&apos;</span>
+print(a[<span class="hljs-number">0</span>])
+print(a[<span class="hljs-number">0</span>:<span class="hljs-number">2</span>])
+</code></pre>
+<pre><code>P
+Py
+</code></pre><pre><code class="lang-python">print(<span class="hljs-string">&apos;Python&apos;</span>)
+print(<span class="hljs-string">&apos;\tPython&apos;</span>)
+</code></pre>
+<pre><code>Python
+    Python
+</code></pre><pre><code class="lang-python">print(<span class="hljs-string">&apos;{},{}&apos;</span>.format(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>))
+print(<span class="hljs-string">&apos;%d,%d&apos;</span>%(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>))
+print(f<span class="hljs-string">&apos;{1},{2}&apos;</span>)
+</code></pre>
+<pre><code>1,2
+1,2
+1,2
+</code></pre><h3 id="22&#x3001;&#x6570;&#x503C;&#x7C7B;&#x578B;">2.2&#x3001;&#x6570;&#x503C;&#x7C7B;&#x578B;</h3>
+<ul>
+<li>+, -, *, \, () &#x56DB;&#x5219;&#x8FD0;&#x7B97;&#x4E0E;&#x62EC;&#x53F7;, **&#x4E58;&#x65B9;</li>
+<li>&#x6CE8;&#x610F;&#x533A;&#x5206;&#x6574;&#x6570;&#x4E0E;&#x6D6E;&#x70B9;&#x6570;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-number">3</span>**<span class="hljs-number">2</span>
+</code></pre>
+<pre><code>9
+</code></pre><pre><code class="lang-python"><span class="hljs-number">0.1</span>+<span class="hljs-number">0.1</span>
+</code></pre>
+<pre><code>0.2
+</code></pre><h3 id="23&#x3001;&#x5E03;&#x5C14;&#x7C7B;&#x578B;">2.3&#x3001;&#x5E03;&#x5C14;&#x7C7B;&#x578B;</h3>
+<ul>
+<li>True False</li>
+<li>and or not</li>
+</ul>
+<pre><code class="lang-python">a = <span class="hljs-keyword">True</span>
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">True</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">False</span>
+</code></pre>
+<pre><code>False
+</code></pre><pre><code class="lang-python"><span class="hljs-number">1</span> <span class="hljs-keyword">and</span> <span class="hljs-number">0</span>
+</code></pre>
+<pre><code>0
+</code></pre><pre><code class="lang-python"><span class="hljs-string">&apos;&apos;</span> <span class="hljs-keyword">and</span> <span class="hljs-string">&apos;s&apos;</span>
+</code></pre>
+<pre><code>&apos;&apos;
+</code></pre><h2 id="3&#x3001;&#x6CE8;&#x91CA;">3&#x3001;&#x6CE8;&#x91CA;</h2>
+<ul>
+<li>&#x6CE8;&#x91CA;&#x8DDF;&#x5728;#&#x53F7;&#x540E;&#x9762;</li>
+<li>&#x6587;&#x6863;&#x6CE8;&#x91CA;&#x4E09;&#x5F15;&#x53F7;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-comment"># &#x4F60;&#x597D;&#xFF0C;&#x4E16;&#x754C;&#xFF01;</span>
+print(<span class="hljs-string">&apos;Hello, world!&apos;</span>)
+</code></pre>
+<pre><code>Hello, world!
+</code></pre><h2 id="4&#x3001;&#x5217;&#x8868;">4&#x3001;&#x5217;&#x8868;</h2>
+<ul>
+<li>&#x5217;&#x8868;&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x53D8;&#x5E8F;&#x5217;&#x7C7B;&#x578B;</li>
+<li>&#x53EF;&#x4EE5;&#x7528;<code>dir()</code>&#x67E5;&#x770B;&#x5B83;&#x5177;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;<code>help()</code>&#x67E5;&#x770B;&#x76F8;&#x5E94;&#x65B9;&#x6CD5;&#x5177;&#x4F53;&#x4F7F;&#x7528;&#x5E2E;&#x52A9;</li>
+<li>&#x7D22;&#x5F15;&#xFF0C;&#x5207;&#x7247;</li>
+<li>&#x5FAA;&#x73AF;&#x904D;&#x5386;&#x5217;&#x8868;, range&#x51FD;&#x6570;</li>
+<li>&#x5217;&#x8868;&#x89E3;&#x6790;</li>
+</ul>
+<pre><code class="lang-python">alist = [<span class="hljs-string">&apos;a&apos;</span>,<span class="hljs-string">&apos;b&apos;</span>,<span class="hljs-string">&apos;c&apos;</span>,<span class="hljs-string">&apos;d&apos;</span>]
+print(alist)
+</code></pre>
+<pre><code>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;]
+</code></pre><pre><code class="lang-python">a = [<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">4</span>]
+b = sorted(a)
+print(a)
+print(b)
+</code></pre>
+<pre><code>[1, 3, 2, 4]
+[1, 2, 3, 4]
+</code></pre><pre><code class="lang-python">a = [<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">4</span>]
+a.sort()
+print(a)
+</code></pre>
+<pre><code>[1, 2, 3, 4]
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> a:
+    print(item)
+</code></pre>
+<pre><code>1
+2
+3
+4
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>):
+    print(i)
+</code></pre>
+<pre><code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</code></pre><pre><code class="lang-python">squares = [v**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span> v <span class="hljs-keyword">in</span> range(<span class="hljs-number">1</span>,<span class="hljs-number">11</span>)]
+print(squares)
+</code></pre>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+</code></pre><h2 id="5&#x3001;&#x5143;&#x7EC4;">5&#x3001;&#x5143;&#x7EC4;</h2>
+<ul>
+<li>&#x5143;&#x7EC4;&#x662F;&#x4E00;&#x79CD;&#x4E0D;&#x53EF;&#x53D8;&#x5E8F;&#x5217;&#x7C7B;&#x578B;</li>
+<li>&#x64CD;&#x4F5C;&#x548C;&#x5217;&#x8868;&#x57FA;&#x672C;&#x7C7B;&#x4F3C;, &#x4E0D;&#x518D;&#x8D58;&#x8FF0;</li>
+</ul>
+<pre><code class="lang-python">dim = (<span class="hljs-number">100</span>,<span class="hljs-number">50</span>)
+dim
+</code></pre>
+<pre><code>(100, 50)
+</code></pre><h2 id="6&#x3001;if&#x6761;&#x4EF6;&#x8BED;&#x53E5;">6&#x3001;if&#x6761;&#x4EF6;&#x8BED;&#x53E5;</h2>
+<ul>
+<li>if elif else </li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-keyword">if</span> <span class="hljs-number">1</span>==<span class="hljs-number">2</span>:
+    print(<span class="hljs-string">&apos;yes&apos;</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no&apos;</span>)
+</code></pre>
+<pre><code>no
+</code></pre><h2 id="7&#x3001;&#x5B57;&#x5178;">7&#x3001;&#x5B57;&#x5178;</h2>
+<ul>
+<li>&#x5B57;&#x5178;&#x662F;&#x4E00;&#x79CD;&#x8868;&#x793A;&#x952E;&#x503C;&#x5BF9;&#x7684;&#x53EF;&#x53D8;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;, &#x5217;&#x8868;&#x7684;&#x7D22;&#x5F15;&#x548C;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#x4E4B;&#x95F4;&#x7684;&#x6620;&#x5C04;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x4E00;&#x79CD;&#x7279;&#x6B8A;&#x7684;&#x5B57;&#x5178;</li>
+<li>&#x5B57;&#x5178;&#x7684;key&#x5FC5;&#x987B;&#x662F;&#x4E0D;&#x53EF;&#x53D8;&#x7684;&#xFF0C;&#x5373;&#x53EF;hash&#x7684;</li>
+<li>&#x5B57;&#x5178;&#x89E3;&#x6790;</li>
+<li>&#x904D;&#x5386;&#x5B57;&#x5178;</li>
+</ul>
+<pre><code class="lang-python">a = {<span class="hljs-string">&apos;a&apos;</span>:<span class="hljs-number">1</span>, <span class="hljs-string">&apos;b&apos;</span>:<span class="hljs-number">2</span>}
+print(a)
+</code></pre>
+<pre><code>{&apos;a&apos;: 1, &apos;b&apos;: 2}
+</code></pre><pre><code class="lang-python">a = {}
+print(type(a))
+</code></pre>
+<pre><code>&lt;class &apos;dict&apos;&gt;
+</code></pre><pre><code class="lang-python">a = {k:v <span class="hljs-keyword">for</span> k,v <span class="hljs-keyword">in</span> zip([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>],[<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>])}
+print(a)
+</code></pre>
+<pre><code>{1: 5, 2: 6, 3: 7, 4: 8}
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x904D;&#x5386;&#x6240;&#x6709;&#x7684;&#x952E;&#x503C;&#x5BF9;</span>
+<span class="hljs-keyword">for</span> k,v <span class="hljs-keyword">in</span> a.items():
+    print(<span class="hljs-string">&apos;\nKey: &apos;</span> + str(k))
+    print(<span class="hljs-string">&apos;Value: &apos;</span> + str(v))
+<span class="hljs-comment"># &#x6240;&#x6709;&#x7684;&#x952E; dict.keys()</span>
+<span class="hljs-comment"># &#x6240;&#x6709;&#x7684;&#x503C; dict.values()</span>
+</code></pre>
+<pre><code>Key: 1
+Value: 5
+
+Key: 2
+Value: 6
+
+Key: 3
+Value: 7
+
+Key: 4
+Value: 8
+</code></pre><h2 id="8&#x3001;&#x96C6;&#x5408;">8&#x3001;&#x96C6;&#x5408;</h2>
+<ul>
+<li>&#x96C6;&#x5408;&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x53D8;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x81EA;&#x52A8;&#x53BB;&#x91CD;</li>
+<li>&#x7A7A;&#x96C6;&#x5408;&#x4F7F;&#x7528;set()&#x521B;&#x5EFA;</li>
+</ul>
+<pre><code class="lang-python">a = set([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>])
+print(a)
+</code></pre>
+<pre><code>{1, 2, 3}
+</code></pre><pre><code class="lang-python">b = set()
+print(b)
+</code></pre>
+<pre><code>set()
+</code></pre><pre><code class="lang-python">dir(a)
+</code></pre>
+<pre><code>[&apos;__and__&apos;,
+ &apos;__class__&apos;,
+ &apos;__contains__&apos;,
+ &apos;__delattr__&apos;,
+ &apos;__dir__&apos;,
+ &apos;__doc__&apos;,
+ &apos;__eq__&apos;,
+ &apos;__format__&apos;,
+ &apos;__ge__&apos;,
+ &apos;__getattribute__&apos;,
+ &apos;__gt__&apos;,
+ &apos;__hash__&apos;,
+ &apos;__iand__&apos;,
+ &apos;__init__&apos;,
+ &apos;__init_subclass__&apos;,
+ &apos;__ior__&apos;,
+ &apos;__isub__&apos;,
+ &apos;__iter__&apos;,
+ &apos;__ixor__&apos;,
+ &apos;__le__&apos;,
+ &apos;__len__&apos;,
+ &apos;__lt__&apos;,
+ &apos;__ne__&apos;,
+ &apos;__new__&apos;,
+ &apos;__or__&apos;,
+ &apos;__rand__&apos;,
+ &apos;__reduce__&apos;,
+ &apos;__reduce_ex__&apos;,
+ &apos;__repr__&apos;,
+ &apos;__ror__&apos;,
+ &apos;__rsub__&apos;,
+ &apos;__rxor__&apos;,
+ &apos;__setattr__&apos;,
+ &apos;__sizeof__&apos;,
+ &apos;__str__&apos;,
+ &apos;__sub__&apos;,
+ &apos;__subclasshook__&apos;,
+ &apos;__xor__&apos;,
+ &apos;add&apos;,
+ &apos;clear&apos;,
+ &apos;copy&apos;,
+ &apos;difference&apos;,
+ &apos;difference_update&apos;,
+ &apos;discard&apos;,
+ &apos;intersection&apos;,
+ &apos;intersection_update&apos;,
+ &apos;isdisjoint&apos;,
+ &apos;issubset&apos;,
+ &apos;issuperset&apos;,
+ &apos;pop&apos;,
+ &apos;remove&apos;,
+ &apos;symmetric_difference&apos;,
+ &apos;symmetric_difference_update&apos;,
+ &apos;union&apos;,
+ &apos;update&apos;]
+</code></pre><pre><code class="lang-python">a.add(<span class="hljs-number">5</span>)
+</code></pre>
+<pre><code class="lang-python">a
+</code></pre>
+<pre><code>{1, 2, 3, 5}
+</code></pre><h2 id="9&#x3001;&#x5FAA;&#x73AF;">9&#x3001;&#x5FAA;&#x73AF;</h2>
+<ul>
+<li>for&#x5FAA;&#x73AF;&#x57FA;&#x672C;&#x7528;&#x6CD5;</li>
+<li>while&#x5FAA;&#x73AF;&#x57FA;&#x672C;&#x7528;&#x6CD5;</li>
+<li>break&#x8DF3;&#x51FA;&#x6574;&#x4E2A;&#x5FAA;&#x73AF;, continue&#x8DF3;&#x51FA;&#x672C;&#x8F6E;&#x5FAA;&#x73AF;</li>
+<li>for else&#x8BED;&#x53E5; while else&#x8BED;&#x53E5;, &#x5982;&#x679C;&#x7ED3;&#x675F;&#x5FAA;&#x73AF;&#x524D; no break&#xFF0C;&#x5219;&#x4F1A;&#x6267;&#x884C;else&#x8BED;&#x53E5;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">5</span>):
+    print(i)
+</code></pre>
+<pre><code>0
+1
+2
+3
+4
+</code></pre><pre><code class="lang-python">n = <span class="hljs-number">1</span>
+<span class="hljs-keyword">while</span> n &lt;= <span class="hljs-number">5</span>:
+    print(n)
+    n += <span class="hljs-number">1</span>
+</code></pre>
+<pre><code>1
+2
+3
+4
+5
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>):
+    print(i)
+    <span class="hljs-keyword">if</span> i == <span class="hljs-number">8</span>:
+        <span class="hljs-keyword">break</span>
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no break&apos;</span>)
+</code></pre>
+<pre><code>0
+1
+2
+3
+4
+5
+6
+7
+8
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>):
+    print(i)
+    <span class="hljs-keyword">if</span> i == <span class="hljs-number">11</span>:
+        <span class="hljs-keyword">break</span>
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no break&apos;</span>)
+</code></pre>
+<pre><code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+no break
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>):
+    <span class="hljs-keyword">if</span> i == <span class="hljs-number">8</span>:
+        <span class="hljs-keyword">continue</span>
+    print(i)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no break&apos;</span>)
+</code></pre>
+<pre><code>0
+1
+2
+3
+4
+5
+6
+7
+9
+no break
+</code></pre><pre><code class="lang-python">n = <span class="hljs-number">1</span>
+<span class="hljs-keyword">while</span> n &lt;= <span class="hljs-number">5</span>:
+    print(n)
+    <span class="hljs-keyword">if</span> n == <span class="hljs-number">8</span>:
+        <span class="hljs-keyword">break</span>
+    n += <span class="hljs-number">1</span>
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no break&apos;</span>)
+</code></pre>
+<pre><code>1
+2
+3
+4
+5
+no break
+</code></pre><pre><code class="lang-python">n = <span class="hljs-number">1</span>
+<span class="hljs-keyword">while</span> n &lt;= <span class="hljs-number">5</span>:
+    print(n)
+    <span class="hljs-keyword">if</span> n == <span class="hljs-number">3</span>:
+        <span class="hljs-keyword">break</span>
+    n += <span class="hljs-number">1</span>
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;no break&apos;</span>)
+</code></pre>
+<pre><code>1
+2
+3
+</code></pre><h2 id="10&#x3001;&#x51FD;&#x6570;">10&#x3001;&#x51FD;&#x6570;</h2>
+<ul>
+<li>&#x591A;&#x6B21;&#x4F7F;&#x7528;&#x67D0;&#x4E00;&#x529F;&#x80FD;&#x65F6;&#xFF0C;&#x7F16;&#x5199;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x65E0;&#x9700;&#x53CD;&#x590D;&#x7F16;&#x5199;&#x76F8;&#x5E94;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x6BCF;&#x6B21;&#x8C03;&#x7528;&#x8BE5;&#x51FD;&#x6570;&#x5373;&#x53EF;</li>
+<li>&#x51FD;&#x6570;&#x4F7F;&#x7528;def f(&#x53C2;&#x6570;)&#x7684;&#x65B9;&#x5F0F;&#x5B9A;&#x4E49;</li>
+<li>&#x51FD;&#x6570;&#x5F62;&#x53C2;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x4F20;&#x9012;&#x5B9E;&#x53C2;&#xFF08;&#x4F4D;&#x7F6E;&#x5B9E;&#x53C2;&#x3001;&#x5173;&#x952E;&#x5B57;&#x5B9E;&#x53C2;&#xFF09;</li>
+<li><code>*args</code> &#x4F20;&#x9012;&#x4EFB;&#x610F;&#x6570;&#x91CF;&#x7684;&#x4F4D;&#x7F6E;&#x5B9E;&#x53C2;&#xFF0C;<code>**kw_args</code> &#x4F20;&#x9012;&#x4EFB;&#x610F;&#x6570;&#x91CF;&#x7684;&#x5173;&#x952E;&#x5B57;&#x5B9E;&#x53C2;</li>
+<li>&#x51FD;&#x6570;&#x7684;&#x9012;&#x5F52;&#x8C03;&#x7528;</li>
+<li>lambda&#x51FD;&#x6570;/&#x533F;&#x540D;&#x51FD;&#x6570;</li>
+<li>&#x51FD;&#x6570;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x9AD8;&#x9636;&#x51FD;&#x6570;&#xFF0C;&#x51FD;&#x6570;&#x5F0F;&#x7F16;&#x7A0B;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f1</span><span class="hljs-params">(x)</span>:</span>
+    <span class="hljs-keyword">return</span> x**<span class="hljs-number">2</span>
+</code></pre>
+<pre><code class="lang-python">f1(<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>4
+</code></pre><pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f2</span><span class="hljs-params">(a,b=<span class="hljs-number">1</span>)</span>:</span>
+    <span class="hljs-keyword">return</span> a+b
+</code></pre>
+<pre><code class="lang-python">f2(<span class="hljs-number">1</span>)
+</code></pre>
+<pre><code>2
+</code></pre><pre><code class="lang-python">f2(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>3
+</code></pre><pre><code class="lang-python">f2(b=<span class="hljs-number">2</span>,a=<span class="hljs-number">1</span>)
+</code></pre>
+<pre><code>3
+</code></pre><pre><code class="lang-python">f2(a=<span class="hljs-number">1</span>,b=<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>3
+</code></pre><pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f3</span><span class="hljs-params">(*args)</span>:</span>
+    print(args)
+</code></pre>
+<pre><code class="lang-python">f3(<span class="hljs-number">1</span>)
+</code></pre>
+<pre><code>(1,)
+</code></pre><pre><code class="lang-python">f3(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>(1, 2, 3, 4)
+</code></pre><pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f4</span><span class="hljs-params">(a, *args)</span>:</span>
+    print(a)
+    print(args)
+</code></pre>
+<pre><code class="lang-python">f4(<span class="hljs-number">1</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)
+</code></pre>
+<pre><code>1
+(1, 2, 3, 4)
+</code></pre><pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f5</span><span class="hljs-params">(a,b,**kw)</span>:</span>
+    print(a,b)
+    print(kw)
+</code></pre>
+<pre><code class="lang-python">f5(<span class="hljs-number">1</span>,<span class="hljs-number">1</span>,c=<span class="hljs-number">2</span>,d=<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>1 1
+{&apos;c&apos;: 2, &apos;d&apos;: 3}
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># n&#x9636;&#x4E58;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">factorial</span><span class="hljs-params">(n)</span>:</span>
+    <span class="hljs-keyword">if</span> n==<span class="hljs-number">1</span>:
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">return</span> n*factorial(n<span class="hljs-number">-1</span>)
+</code></pre>
+<pre><code class="lang-python">factorial(<span class="hljs-number">5</span>)
+</code></pre>
+<pre><code>120
+</code></pre><pre><code class="lang-python">(<span class="hljs-keyword">lambda</span> *args: sum(args))(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)
+</code></pre>
+<pre><code>6
+</code></pre><h2 id="11&#x3001;&#x7C7B;">11&#x3001;&#x7C7B;</h2>
+<ul>
+<li>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x4E2D;&#xFF0C;&#x7F16;&#x5199;&#x5404;&#x79CD;&#x7C7B;&#xFF0C;&#x57FA;&#x4E8E;&#x8FD9;&#x4E9B;&#x7C7B;&#x6765;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x8FD9;&#x4E9B;&#x5BF9;&#x8C61;&#x5177;&#x5907;&#x4E00;&#x4E9B;&#x901A;&#x7528;&#x884C;&#x4E3A;&#xFF0C;&#x5373;&#x65B9;&#x6CD5;&#x548C;&#x5C5E;&#x6027;</li>
+<li>&#x5C01;&#x88C5;&#x3001;&#x7EE7;&#x627F;&#x548C;&#x591A;&#x6001;&#x662F;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x7684;&#x4E09;&#x4E2A;&#x4E3B;&#x8981;&#x7279;&#x5F81;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-comment"># &#x5C01;&#x88C5;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name,age)</span>:</span>
+        <span class="hljs-string">&quot;&quot;&quot;&#x521D;&#x59CB;&#x5316;&#x5C5E;&#x6027;name&#x548C;age&quot;&quot;&quot;</span>
+        self.name = name
+        self.age = age
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">sit</span><span class="hljs-params">(self)</span>:</span>
+        print(self.name.title()+<span class="hljs-string">&quot; is now sitting.&quot;</span>)
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">roll_over</span><span class="hljs-params">(self)</span>:</span>
+        print(self.name.title()+<span class="hljs-string">&quot; rolled over!&quot;</span>)
+</code></pre>
+<pre><code class="lang-python">my_dog = Dog(<span class="hljs-string">&apos;willie&apos;</span>,<span class="hljs-number">6</span>)
+</code></pre>
+<pre><code class="lang-python">print(my_dog.name)
+print(my_dog.age)
+</code></pre>
+<pre><code>willie
+6
+</code></pre><pre><code class="lang-python">my_dog.sit()
+</code></pre>
+<pre><code>Willie is now sitting.
+</code></pre><pre><code class="lang-python">my_dog.roll_over()
+</code></pre>
+<pre><code>Willie rolled over!
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x7EE7;&#x627F;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SmallDog</span><span class="hljs-params">(Dog)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name,age)</span>:</span>
+        super().__init__(name,age)
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">eat</span><span class="hljs-params">(self)</span>:</span>
+        print(self.name.title()+<span class="hljs-string">&quot; is now eatting.&quot;</span>)
+</code></pre>
+<pre><code class="lang-python">my_small_dog = SmallDog(<span class="hljs-string">&apos;andy&apos;</span>,<span class="hljs-number">5</span>)
+</code></pre>
+<pre><code class="lang-python">my_small_dog.sit()
+</code></pre>
+<pre><code>Andy is now sitting.
+</code></pre><pre><code class="lang-python">my_small_dog.eat()
+</code></pre>
+<pre><code>Andy is now eatting.
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x591A;&#x6001; &#x8986;&#x76D6;&#x91CD;&#x5199;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;</span>
+<span class="hljs-comment"># &#x7EE7;&#x627F;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BigDog</span><span class="hljs-params">(Dog)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name,age)</span>:</span>
+        super().__init__(name,age)
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">eat</span><span class="hljs-params">(self)</span>:</span>
+        print(self.name.title()+<span class="hljs-string">&quot; is now eatting.&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">sit</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;Big dog &apos;</span> + self.name.title()+<span class="hljs-string">&quot; is now sitting.&quot;</span>)
+</code></pre>
+<pre><code class="lang-python">my_big_dog = BigDog(<span class="hljs-string">&apos;alan&apos;</span>,<span class="hljs-number">7</span>)
+</code></pre>
+<pre><code class="lang-python">my_big_dog.eat()
+</code></pre>
+<pre><code>Alan is now eatting.
+</code></pre><pre><code class="lang-python">my_big_dog.sit()
+</code></pre>
+<pre><code>Big dog Alan is now sitting.
+</code></pre><h2 id="12&#x3001;python&#x6807;&#x51C6;&#x5E93;">12&#x3001;Python&#x6807;&#x51C6;&#x5E93;</h2>
+<ul>
+<li><a href="https://docs.python.org/3/library/index.html" target="_blank">Python&#x6807;&#x51C6;&#x5E93;</a>&#x662F;&#x4E00;&#x7EC4;&#x6A21;&#x5757;&#xFF0C;&#x5B89;&#x88C5;&#x7684;Python&#x90FD;&#x5305;&#x542B;&#x5B83;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> collections <span class="hljs-keyword">import</span> OrderedDict
+</code></pre>
+<pre><code class="lang-python">favorite_languages = OrderedDict()
+</code></pre>
+<pre><code class="lang-python">favorite_languages[<span class="hljs-string">&apos;jen&apos;</span>]=<span class="hljs-string">&apos;python&apos;</span>
+favorite_languages[<span class="hljs-string">&apos;sarah&apos;</span>]=<span class="hljs-string">&apos;c&apos;</span>
+favorite_languages[<span class="hljs-string">&apos;edward&apos;</span>]=<span class="hljs-string">&apos;ruby&apos;</span>
+favorite_languages[<span class="hljs-string">&apos;phil&apos;</span>]=<span class="hljs-string">&apos;python&apos;</span>
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">for</span> k,v <span class="hljs-keyword">in</span> favorite_languages.items():
+    print(k,v)
+</code></pre>
+<pre><code>jen python
+sarah c
+edward ruby
+phil python
+</code></pre><h2 id="13&#x3001;&#x6587;&#x4EF6;&#x548C;&#x5F02;&#x5E38;">13&#x3001;&#x6587;&#x4EF6;&#x548C;&#x5F02;&#x5E38;</h2>
+<ul>
+<li>&#x8BFB;&#x53D6;&#x6587;&#x4EF6;</li>
+<li>&#x5199;&#x5165;&#x6587;&#x4EF6;</li>
+<li>try except else finally&#x8BED;&#x53E5;</li>
+<li>raise&#x89E6;&#x53D1;&#x5F02;&#x5E38;</li>
+<li>assert&#x65AD;&#x8A00;&#x8BED;&#x53E5;&#xFF0C;&#x5982;&#x679C;&#x65AD;&#x8A00;&#x7684;&#x4E3A;&#x5047;&#xFF0C;&#x5219;&#x5F15;&#x53D1;AssertionError</li>
+<li>json&#x6A21;&#x5757;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-comment"># &#x6574;&#x4E2A;&#x8BFB;&#x53D6;</span>
+<span class="hljs-keyword">with</span> open(<span class="hljs-string">&apos;pi_digits.txt&apos;</span>) <span class="hljs-keyword">as</span> file_object:
+    contents = file_object.read()
+    print(contents)
+</code></pre>
+<pre><code>3.1415926535
+   8979323846
+   2643383279
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x9010;&#x884C;&#x8BFB;&#x53D6;</span>
+<span class="hljs-keyword">with</span> open(<span class="hljs-string">&apos;pi_digits.txt&apos;</span>) <span class="hljs-keyword">as</span> file_object:
+    <span class="hljs-keyword">for</span> line <span class="hljs-keyword">in</span> file_object:
+        print(line.rstrip())
+</code></pre>
+<pre><code>3.1415926535
+   8979323846
+   2643383279
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x4F7F;&#x7528;readlines()&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x6587;&#x4EF6;&#x5404;&#x884C;&#x5185;&#x5BB9;&#x7684;&#x5217;&#x8868;</span>
+<span class="hljs-keyword">with</span> open(<span class="hljs-string">&apos;pi_digits.txt&apos;</span>) <span class="hljs-keyword">as</span> file_object:
+    lines = file_object.readlines()
+
+<span class="hljs-keyword">for</span> line <span class="hljs-keyword">in</span> lines:
+    print(line.rstrip())
+</code></pre>
+<pre><code>3.1415926535
+   8979323846
+   2643383279
+</code></pre><pre><code class="lang-python">pi_string = <span class="hljs-string">&apos;&apos;</span>
+<span class="hljs-keyword">for</span> line <span class="hljs-keyword">in</span> lines:
+    pi_string += line.strip()
+print(pi_string)
+</code></pre>
+<pre><code>3.141592653589793238462643383279
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x5199;&#x5165;&#x6587;&#x4EF6;   &apos;r&apos;&#x8BFB;&#x53D6;&#x6A21;&#x5F0F;, &apos;w&apos;&#x5199;&#x5165;&#x6A21;&#x5F0F;, &apos;a&apos;&#x8FFD;&#x52A0;&#x6A21;&#x5F0F;, &apos;r+&apos;&#x8BFB;&#x53D6;&#x548C;&#x5199;&#x5165;&#x6A21;&#x5F0F;, &apos;b&apos;&#x4E8C;&#x8FDB;&#x5236;&#x6A21;&#x5F0F;</span>
+filename=<span class="hljs-string">&apos;programming.txt&apos;</span>
+<span class="hljs-keyword">with</span> open(filename,<span class="hljs-string">&apos;w&apos;</span>) <span class="hljs-keyword">as</span> file_object:
+    file_object.write(<span class="hljs-string">&apos;I love programming.&apos;</span>)
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-number">5</span>/<span class="hljs-number">0</span>)
+<span class="hljs-keyword">except</span> ZeroDivisionError:
+    print(<span class="hljs-string">&quot;You can&apos;t divide by zero!&quot;</span>)
+</code></pre>
+<pre><code>You can&apos;t divide by zero!
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-number">5</span>/<span class="hljs-number">0</span>)
+<span class="hljs-keyword">except</span> ZeroDivisionError:
+    print(<span class="hljs-string">&quot;You can&apos;t divide by zero!&quot;</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;Success!&apos;</span>)
+</code></pre>
+<pre><code>You can&apos;t divide by zero!
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-number">5</span>/<span class="hljs-number">1</span>)
+<span class="hljs-keyword">except</span> ZeroDivisionError:
+    print(<span class="hljs-string">&quot;You can&apos;t divide by zero!&quot;</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;Success!&apos;</span>)
+<span class="hljs-keyword">finally</span>:
+    print(<span class="hljs-string">&apos;finally&apos;</span>)
+</code></pre>
+<pre><code>5.0
+Success!
+finally
+</code></pre><pre><code class="lang-python"><span class="hljs-keyword">try</span>:
+    <span class="hljs-keyword">with</span> open(<span class="hljs-string">&apos;alice.txt&apos;</span>) <span class="hljs-keyword">as</span> f_obj:
+        contents = f_obj.read()
+<span class="hljs-keyword">except</span> FileNotFoundError:
+    print(<span class="hljs-string">&apos;File not found&apos;</span>)
+<span class="hljs-keyword">finally</span>:
+    print(<span class="hljs-string">&apos;finally&apos;</span>)
+</code></pre>
+<pre><code>File not found
+finally
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># raise ZeroDivisionError</span>
+<span class="hljs-comment"># assert False  ---&gt; AssertionError</span>
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> json
+</code></pre>
+<pre><code class="lang-python">numbers = [<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">7</span>,<span class="hljs-number">11</span>,<span class="hljs-number">13</span>]
+</code></pre>
+<pre><code class="lang-python">filename = <span class="hljs-string">&apos;numbers.json&apos;</span>
+<span class="hljs-keyword">with</span> open(filename,<span class="hljs-string">&apos;w&apos;</span>) <span class="hljs-keyword">as</span> f_obj:
+    json.dump(numbers, f_obj)
+</code></pre>
+<pre><code class="lang-python">filename = <span class="hljs-string">&apos;numbers.json&apos;</span>
+<span class="hljs-keyword">with</span> open(filename) <span class="hljs-keyword">as</span> f_obj:
+    numbers = json.load(f_obj)
+
+print(numbers)
+</code></pre>
+<pre><code>[2, 3, 5, 7, 11, 13]
+</code></pre><h2 id="14&#x3001;&#x751F;&#x6210;&#x5668;&#x3001;&#x8FED;&#x4EE3;&#x5668;&#x3001;&#x53EF;&#x8FED;&#x4EE3;&#x5BF9;&#x8C61;">14&#x3001;&#x751F;&#x6210;&#x5668;&#x3001;&#x8FED;&#x4EE3;&#x5668;&#x3001;&#x53EF;&#x8FED;&#x4EE3;&#x5BF9;&#x8C61;</h2>
+<p><img src="attachment:c191f530-f172-4bdc-8ba5-0ddd5db618aa.png" alt="image.png"></p>
+<pre><code class="lang-python">x = (i <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">1</span>,<span class="hljs-number">6</span>)) <span class="hljs-comment"># &#x751F;&#x6210;&#x5668;&#x8868;&#x8FBE;&#x5F0F;</span>
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> x:
+    print(item)
+</code></pre>
+<pre><code>1
+2
+3
+4
+5
+</code></pre><pre><code class="lang-python"><span class="hljs-comment"># &#x751F;&#x6210;&#x5668;&#x51FD;&#x6570;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">()</span>:</span>
+    n = <span class="hljs-number">1</span>
+    <span class="hljs-keyword">while</span> n &lt;= <span class="hljs-number">5</span>:
+        <span class="hljs-keyword">yield</span> n
+        n += <span class="hljs-number">1</span>
+</code></pre>
+<pre><code class="lang-python">my_generator = f()
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> my_generator:
+    print(item)
+</code></pre>
+<pre><code>1
+2
+3
+4
+5
+</code></pre><pre><code class="lang-python">
+
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="numpy基础.html" class="navigation navigation-next " aria-label="Next page: 第二章">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第一章","level":"1.2","depth":1,"next":{"title":"第二章","level":"1.3","depth":1,"path":"numpy基础.md","ref":"numpy基础.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"python基础知识.md","mtime":"2022-09-22T08:40:13.816Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-22T08:49:31.496Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
